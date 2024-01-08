@@ -1,5 +1,9 @@
 # Getting Started with Create React App
 
+https://github.com/Seyma44/search-engine/assets/3766249/722523bb-63b3-4f1b-b249-3e8e4878d511
+
+https://github.com/Seyma44/search-engine/assets/3766249/a21bc22f-41e1-4129-afe6-e7b8f9b21632
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
