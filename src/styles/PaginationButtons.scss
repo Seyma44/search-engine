@@ -1,0 +1,42 @@
+.current-page {
+    display: inline-block;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: #484848;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21.09px;
+    padding: 0px 5px;
+    border: 1px solid #484848;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #f0f0f0; /* Change background color on hover if needed */
+    }
+  }
+  
+  .selected-page {
+    background-color: #204080;
+    color: #fff;
+    display: inline-block;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 21.09px;
+    padding: 0px 5px;
+    border: 1px solid #484848;
+    border-radius: 4px;
+    cursor: pointer;
+    margin: 5px;
+    transition: background-color 0.3s ease;
+  
+    &:hover {
+      background-color: #002366; /* Change background color on hover if needed */
+    }
+  }
+  

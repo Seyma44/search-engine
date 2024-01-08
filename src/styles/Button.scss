@@ -1,0 +1,22 @@
+/* Button.css */
+.custom-button,
+.custom-button-link {
+  display: inline-block;
+  text-decoration: none;
+  background-color: #204080;
+  color: #ffffff;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 21.09px;
+  padding: 7px 31px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.custom-button-link:hover,
+.custom-button:hover {
+  background-color: #4f75c2;
+}

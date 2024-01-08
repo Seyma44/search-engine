@@ -1,0 +1,108 @@
+.main-page-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* Set the height to fill the viewport */
+}
+
+.center-content {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 125px;
+}
+
+.logo-bottom-text {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 16.41px;
+  margin-top: 1px;
+  margin-bottom: 10px;
+  color: #484848;
+  margin-left: 38%;
+}
+
+.search-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 36px;
+  margin: 10px 0;
+  margin-right: 72%;
+  margin-left: -10px;
+  color: #090A0A;
+}
+
+.top-right-button {
+  position: absolute;
+  top: 10px;
+  right: 30px;
+}
+
+.slider-content {
+  display: flex;
+  flex-direction: column;
+  padding: 0 90px; /* Adjusted padding for smaller screens */
+  margin-top: 30px;
+}
+
+.slider-title {
+  font-family: 'Inter', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 36px;
+  margin-bottom: 35px;
+  margin-left: -5px;
+  color: #090A0A;
+}
+
+.search-input-container-main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.search-input-container-main > * {
+  width: 100%;
+  box-sizing: border-box; /* Ensure padding and border are included in the width */
+  margin-bottom: 10px; /* Add some spacing between the input and button */
+}
+
+/* Media Query for larger screens */
+@media screen and (min-width: 769px) {
+  .search-input-container-main {
+    flex-direction: row;
+  }
+
+  .search-input-container-main > * {
+    margin-bottom: 0;
+    margin-right: 10px; /* Add some spacing between the input and button */
+  }
+
+  .search-input-container-main > *:last-child {
+    margin-right: 0;
+  }
+}
+
+/* Media Query for smaller screens */
+@media screen and (max-width: 768px) {
+  .search-input-container-main > * {
+    width: 83%;
+  }
+
+  .logo-bottom-text {
+    margin-left: 0; /* Reset margin for smaller screens */
+  }
+
+  .search-title {
+    margin-right: 0; /* Reset margin for smaller screens */
+  }
+
+  .slider-content {
+    padding: 0 50px; /* Adjusted padding for even smaller screens */
+  }
+}

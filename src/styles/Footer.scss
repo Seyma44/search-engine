@@ -1,0 +1,74 @@
+.footer-container {
+    background-color: #294E98B8;
+    padding: 42px 50px;
+    color: white;
+    margin-top: 30px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .footer-image {
+    width: 240px;
+    height: auto;
+  }
+  
+  .contact-info {
+    font-family: 'Roboto', sans-serif;
+    margin-top: 10px;
+    margin-left: 25px;
+    margin-right: 20px;
+    flex: 1;
+  }
+  
+  .contact-section {
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .address {
+    font-weight: 400;
+  }
+  
+  .email {
+    margin-top: 35px;
+  }
+  
+  .map-container {
+    flex: 1;
+    width: 100%;
+    height: auto;
+  }
+  
+  /* Media Query for responsiveness */
+  @media screen and (max-width: 768px) {
+    .footer-content {
+      flex-direction: column;
+      align-items: center; /* Center items on smaller screens */
+    }
+  
+    .footer-logo {
+      width: 100%;
+      margin-bottom: 20px;
+    }
+  
+    .contact-info {
+      margin: 0;
+      text-align: center;
+    }
+  
+    .contact-title {
+      margin-top: 20px;
+    }
+  
+    .map-container {
+      margin-top: 20px;
+      flex: 1; /* Take full width in a column layout */
+      max-width: none; /* Remove the max-width restriction */
+    }
+  }
+  
